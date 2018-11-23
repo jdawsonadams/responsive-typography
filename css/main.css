@@ -55,8 +55,17 @@ blockquote {
    margin-left: 8px;
  }
 
-  article {
-    padd
+  h1 {
+    margin-bottom: 0;
+  }
+
+  header p {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  article > p:first-child {
+    margin-top: 25px;
   }
 
 }
