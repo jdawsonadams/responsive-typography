@@ -155,7 +155,7 @@ blockquote {
     margin-top: 0;
     padding-top: 4px;
     padding-bottom: 1px;
-    margin-left: 48px;
+    margin-left: 49px;
   }
 
   header p {
@@ -164,6 +164,29 @@ blockquote {
 
   article > p:nth-child(2) {
     padding-top: 6px;
+  }
+
+  article > p:nth-child(3) {
+    margin-top: 0;
+    padding-top: 4px;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    margin-right: 4px;
+    margin-left: 50px;
+  }
+
+  body {
+    margin-top: 0;
+    padding-top: 4px;
+    padding-bottom: 1px;
+    margin-left: 60px;
   }
 
 }
