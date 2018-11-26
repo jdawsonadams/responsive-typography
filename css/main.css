@@ -18,6 +18,12 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
 article {
   max-width: 43em;
 }
@@ -32,6 +38,14 @@ article header {
 
 article header p {
   font-style: italic;
+}
+
+article p {
+  font-style: normal;
+}
+
+article ol {
+  font-style: normal;
 }
 
 article > p:last-child {
@@ -155,7 +169,8 @@ blockquote {
     margin-top: 0;
     padding-top: 4px;
     padding-bottom: 1px;
-    margin-left: 49px;
+    margin-left: 3em;
+    margin-right: 3em;
   }
 
   header p {
